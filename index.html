@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Siddharth Seth</title>
-  <meta name="author" content="Siddharth Seth">
+  <title>Parul Negi</title>
+  <meta name="author" content="Parul Negi">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -54,9 +54,13 @@
     }
 
     .profile-section img {
-      width: 150px;
-      border-radius: 50%;
-      margin: 10px auto;
+    width: 150px;
+    height: 150px;           /* Force square dimensions */
+    object-fit: cover;       /* Crop to fill square without distortion */
+    border-radius: 50%;      /* Makes it a circle */
+    object-position: center 70%;
+    margin: 10px auto;
+    display: block;
     }
 
     .profile-section div {
@@ -67,6 +71,8 @@
     .profile-section h2 {
       font-size: 2rem;
       margin: 0;
+      text-align: center;
+      
     }
 
     .links {
@@ -196,41 +202,28 @@
     <!-- Profile Section -->
     <div class="profile-section">
       <div>
-        <h2>Hello, I'm Siddharth!</h2>
+        <h2>Parul Negi</h2>
         <p>
-          I am a graduate student at UC Merced working under 
-          <a href="http://faculty.ucmerced.edu/mhyang/" class="no-underline">Prof. Ming-Hsuan Yang</a> at the intersection of computer vision and generative AI. 
+            I am a Data Scientist at UNIO. I am a curious researcher who enjoys building end-to-end systems and solving applied ML problems.
+            My career goal is to drive innovation in applied AI and bring ideas to life through scalable engineering solutions. 
         </p>
-        <p>
-          In the past, I have worked on various exciting problems, including image generation for autonomous driving, 3D human avatars, and image forensics. Feel free to reach out to chat about exciting research projects.
-        </p>
-        <p>
-          During my research life, I have had the opportunity to collaborate with some amazing researchers and mentors at the 
-          <a href="https://www.mpi-inf.mpg.de/departments/visual-computing-and-artificial-intelligence" class="no-underline">Max Planck Institute for Informatics</a> and
-          <a href="https://www.iisc.ac.in/" class="no-underline">Indian Institute of Science</a>.
-        </p>
-
-        <p style="color: red;">
-          Seeking full-time roles at the intersection of computer vision and generative models.
-        </p>
-
         
       </div>
-      <img src="images/siddharth_profile.png" alt="Siddharth Seth">
+      <img src="images/profilePic.jpeg" alt="Parul Negi">
     </div>
 
     <!-- Links Section -->
     <div class="links">
-      <a href="mailto:sethssiddharth@gmail.com">
+      <a href="mailto:parulnegi004@gmail.com">
         <i class="fas fa-envelope icon"></i> Email
       </a>
-      <a href="https://scholar.google.com/citations?user=QDEa50oAAAAJ&hl=en">
+      <a href="https://scholar.google.com/citations?user=rkKPz5IAAAAJ&hl=en">
         <i class="fas fa-graduation-cap icon"></i> Google Scholar
       </a>
-      <a href="https://github.com/sidsunny/">
+      <a href="https://github.com/paru77">
         <i class="fab fa-github icon"></i> GitHub
       </a>
-      <a href="https://www.linkedin.com/in/sethssiddharth/">
+      <a href="https://www.linkedin.com/in/parul-negi-565ba819b/">
         <i class="fab fa-linkedin icon"></i> LinkedIn
       </a>
     </div>
@@ -244,7 +237,7 @@
     </section> -->
 
     <!-- News Section -->
-    <section>
+    <!-- <section>
       <h3>News</h3>
       <div class="news-container">
         <p><b>November 2024:</b> Recognized as one of the top reviewers for NeurIPS 2024.</p>
@@ -265,10 +258,10 @@
         <p><b>June 2020:</b> Attending CVPR virtually.</p>
         <p><b>February 2020:</b> Attending AAAI in New York.</p>
         <p><b>February 2020:</b> Our paper on 3D human pose estimation has been accepted at CVPR 2020.</p>
-        <p><b>November 2020:</b> Our paper on 3D human pose estimation has been accepted at AAAI 2020.</p>
+        <p><b>November 2020:</b> Our paper on 3D human pose estimation has been accepted at AAAI 2020.</p> -->
         <!-- Add more news items as needed -->
-      </div>
-    </section>
+      <!-- </div>
+    </section> -->
 
  <!-- Experience Section -->
     <section>
@@ -281,25 +274,22 @@
                               <table class="container"
                                  style="max-width:900ox;width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
                                  <th width=90px valign="top" align="center">
-                                    <img src="images/experience/bosch_logo.png" alt="sym" width=80px></a>
-                                    <p style="line-height:1.3; font-size:10pt; font-weight:500">Robert Bosch<br>Research Intern<br>May 2024 - Aug 2024</p>
+                                    <img src="images/experience/un_io_logo.jpeg" alt="sym" width=80px></a>
+                                    <p style="line-height:1.3; font-size:10pt; font-weight:500">Unio<br>Data Scientist<br>Sept 2025 - Present</p>
                                  </th>
                                  <th width=90px valign="top" align="center">
-                                    <img src="images/experience/uc_merced_logo.jpg" alt="sym" width=80px></a>
-                                    <p style="line-height:1.3; font-size:10pt; font-weight:500">University of California, Merced<br>Research Assistant<br>Aug 2023 - April 2024</p>
+                                    <img src="images/experience/aws-logo.png" alt="sym" width=80px></a>
+                                    <p style="line-height:1.3; font-size:10pt; font-weight:500">Amazon Web Services<br>SDE Intern<br>March 2025 - May 2025</p>
                                  </th>
                                  <th width=90px valign="top" align="center">
-                                    <img src="images/experience/max_planck_logo.png" alt="sym" width=80px></a>
-                                    <p style="line-height:1.3; font-size:10pt; font-weight:500">Max Planck Institue for Informatics<br>Research Intern<br>Dec 2022 - May 2023</p>
+                                    <img src="images/experience/ionos.png" alt="sym" width=80px></a>
+                                    <p style="line-height:1.3; font-size:10pt; font-weight:500">Ionos<br>Data Analyst<br>Oct 2023 - March 2025</p>
                                  </th>
                                  <th width=90px valign="top" align="center">
-                                    <img src="images/experience/verisk_logo.png" alt="sym" width=80px></a>
-                                    <p style="line-height:1.3; font-size:10pt; font-weight:500">Verisk Analytics<br>Senior Data Scientist<br>Sep 2021 - Nov 2022</p>
+                                    <img src="images/experience/BCG_Corporate_Logo.svg.png" alt="sym" width=80px></a>
+                                    <p style="line-height:1.3; font-size:10pt; font-weight:500">Boston Consulting Group<br>Data Analyst<br>Oct 2022 - April 2023</p>
                                  </th>
-                                 <th width=90px valign="top" align="center">
-                                    <img src="images/experience/intel_labs_logo.png" alt="sym" width=138px></a>
-                                    <p style="line-height:1.3; font-size:10pt; font-weight:500">Intel Labs<br>Graduate Technical Intern<br>Jan 2021 - July 2021</p>
-                                 </th>
+       
                               </table>
                            </td>
                         </tr>
@@ -309,110 +299,46 @@
     
     <!-- Publications Section -->
     <section>
-      <h3>Selected Publications</h3>
+      <h3>Projects</h3>
       <div class="publication">
-        <img src="images/wacv25_teaser.png" alt="WACV 2025">
         <div class="publication-content">
-          <papertitle>PocoLoco: A Point Cloud Diffusion Model of Human Shape in Loose Clothing</papertitle>
-              <strong>Siddharth Seth</strong>,
-              <a href="https://rishabhdabral.github.io/" class="no-underline">Rishabh Dabral</a>,
-              <a href="https://dluvizon.github.io/" class="no-underline">Diogo C Luvizon</a>,
-              <a href="https://people.mpi-inf.mpg.de/~mhaberma/" class="no-underline">Marc Habermann</a>,
-              <a href="https://faculty.ucmerced.edu/mhyang/" class="no-underline">Ming-Hsuan Yang</a>,
-              <a href="https://people.mpi-inf.mpg.de/~theobalt/" class="no-underline">Christian Theobalt</a>,
-              <a href="https://genintel.mpi-inf.mpg.de/" class="no-underline">Adam Kortylewski</a>
-          <p>Winter Conference on Applications of Computer Vision (<span class="conference">WACV</span>), 2025</p>
-          <a href="https://vcai.mpi-inf.mpg.de/projects/pocoloco/" class="no-underline">Project Page</a> | <a href="https://arxiv.org/pdf/2411.04249v2" class="no-underline">Paper</a>
+          <a href="https://github.com/paru77/ProgramRepair" class="no-underline">Program Repair & Hint Generation using LLMs</a>
+          <p>This project focused on leveraging large language models (GPT-4 and Phi-3-mini) for automated Python program repair and hint generation in introductory programming scenarios. By incorporating advanced prompting strategies and Chain-of-Thought reasoning, the models were able to generate both actionable hints and code fixes. To ensure deployment efficiency, parameter-efficient fine-tuning was applied using LoRA, resulting in cost-effective inference. The approach achieved <b>88% average RPass </b> and <b> 15.23% average REdit</b> with a compact 1.6 GB model, establishing a strong baseline and demonstrating the potential of LLMs in educational programming support systems.</p>
+          
         </div>
       </div>
 
       <div class="publication">
-        <img src="images/cvpr22_paper.jpg" alt="CVPR2022">
         <div class="publication-content">
-          <papertitle>Uncertainty-Aware Adaptation for Self-Supervised 3D Human Pose Estimation</papertitle>
-          <a href="https://sites.google.com/view/jogendra/" class="no-underline">Jogendra Nath Kundu</a>,
-          <strong>Siddharth Seth*</strong>,
-          <a href="" class="no-underline">Pradyumna YM*</a>,
-          <a href="https://varunjampani.github.io/" class="no-underline">Varun Jampani</a>,
-          <a href="http://visual-computing.in/wp-content/uploads/2017/08/anirban-chakraborty.html" class="no-underline">Anirban Chakraborty</a>,
-          <a href="http://cds.iisc.ac.in/faculty/venky/" class="no-underline">R. Venkatesh Babu</a>
-          <p>Computer Vision and Pattern Recognition (<span class="conference">CVPR</span>), 2022</p>
-          <a href="https://sites.google.com/view/mrp-net" class="no-underline">Project Page</a> | <a href="https://arxiv.org/pdf/2203.15293.pdf" class="no-underline">Paper</a>
+          <a href="https://github.com/paru77/Satellite_Data_Augmentation" class="no-underline">Satellite Data Augmentation System</a>
+          <p>This project involved building a multimodal monitoring system that integrates satellite imagery, Swissgrid electricity production data, and weather records to detect anomalies in nuclear power plant operations. The system was deployed using Docker, Kubeflow, MinIO, and Sentinel APIs, enabling scalable data processing and real-time analysis. Custom CNN-based models and an anomaly detection pipeline achieved <b>95% accuracy</b> in identifying operational irregularities.</p>
+
         </div>
       </div>
 
-      <!-- Publication 1 -->
       <div class="publication">
-        <img src="images/bmvc21_paper.jpg" alt="BMVC 2021">
-        <div class="publication-content">
-          <papertitle>Pose-Transformation and Radial Distance Clustering for Unsupervised Person Re-identification</papertitle>
-          <strong>Siddharth Seth</strong>, 
-          <a href="#" class="no-underline">Akash Sonth</a>, 
-          <a href="https://anirbanchakraborty.github.io/" class="no-underline">Anirban Chakraborty</a>
-          <p>British Machine Vision Conference (<span class="conference">BMVC</span>), 2021</p>
-          <a href="https://sites.google.com/view/posereid/home" class="no-underline">Project Page</a> | 
-          <a href="https://www.bmvc2021-virtualconference.com/assets/papers/1502.pdf" class="no-underline">Paper</a>
-        </div>
-      </div>
+         <div class="publication-content">
+          <a href="https://github.com/paru77/Knowledge-distillation-for-object-detection" class="no-underline"> Knowledge Distillation for Object Detection </a>
+          <p>Developed an efficient object detection framework using knowledge distillation with two teacher–student model pairs. In the first setup, DINO + Faster R-CNN (Teacher) improved the accuracy of MobileNetV2 (Student) by <b>~10%</b>. In the second setup, DETR with ResNet50 (Teacher) boosted the performance of DETR with ResNet18 (Student) by <b>~15%</b>. This approach demonstrated how distillation can significantly enhance lightweight models, making them more suitable for resource-constrained deployments.</p>
 
-      <!-- Publication 2 -->
-      <div class="publication">
-        <img src="images/neurips21_paper.jpg" alt="NeurIPS 2021">
-        <div class="publication-content">
-          <papertitle>Non-Local Latent Relation Distillation for Self-Adaptive 3D Human Pose Estimation</papertitle>
-          <a href="https://sites.google.com/view/jogendra/" class="no-underline">Jogendra Nath Kundu</a>, 
-          <strong>Siddharth Seth</strong>, 
-          <a href="https://sites.google.com/view/sa3dhp" class="no-underline">Anirudh Jamkhandi</a>, 
-          <a href="https://varunjampani.github.io/" class="no-underline">Varun Jampani</a>, 
-          <a href="http://cds.iisc.ac.in/faculty/venky/" class="no-underline">R. Venkatesh Babu</a>, 
-          <a href="https://anirbanchakraborty.github.io/" class="no-underline">Anirban Chakraborty</a>
-          <p>Neural Information Processing Systems (<span class="conference">NeurIPS</span>), 2021</p>
-          <a href="https://sites.google.com/view/sa3dhp" class="no-underline">Project Page</a> | 
-          <a href="https://arxiv.org/pdf/2204.01971.pdf" class="no-underline">Paper</a>
         </div>
       </div>
-
-      <!-- Publication 3 -->
-      <div class="publication">
-        <img src="images/cvpr20_paper.JPG" alt="CVPR 2020">
-        <div class="publication-content">
-          <papertitle>Self-Supervised 3D Human Pose Estimation via Part Guided Novel Image Synthesis</papertitle>
-          <strong>Siddharth Seth*</strong>,
-          <a href="https://sites.google.com/view/jogendra/" class="no-underline">Jogendra Nath Kundu*</a>,
-          <a href="https://varunjampani.github.io/" class="no-underline">Varun Jampani</a>, 
-          <a href="https://in.linkedin.com/in/rakesh-mugalodi-179476191" class="no-underline">Rakesh Mugalodi</a>, 
-          <a href="http://cds.iisc.ac.in/faculty/venky/" class="no-underline">R. Venkatesh Babu</a>, 
-          <a href="https://anirbanchakraborty.github.io/" class="no-underline">Anirban Chakraborty</a>
-          <p>Computer Vision and Pattern Recognition (<span class="conference">CVPR</span>), 2020 (Oral)</p>
-          <a href="https://sites.google.com/view/pgp-human" class="no-underline">Project Page</a> | 
-          <a href="https://arxiv.org/pdf/2004.04400.pdf" class="no-underline">Paper</a>
-        </div>
-      </div>
-
-      <!-- Publication 4 -->
-      <div class="publication">
-        <img src="images/AAAI20_represent.JPG" alt="AAAI 2020">
-        <div class="publication-content">
-          <papertitle>Kinematic-Structure-Preserved Representation for Unsupervised 3D Human Pose Estimation</papertitle>
-          <strong>Siddharth Seth*</strong>,
-          <a href="https://sites.google.com/view/jogendra/" class="no-underline">Jogendra Nath Kundu*</a>, 
-          <a href="https://www.linkedin.com/in/rahul-mysore-venkatesh-64b27380" class="no-underline">Rahul M. Venkatesh*</a>, 
-          <a href="https://in.linkedin.com/in/rakesh-mugalodi-179476191" class="no-underline">Rakesh Mugalodi</a>, 
-          <a href="http://cds.iisc.ac.in/faculty/venky/" class="no-underline">R. Venkatesh Babu</a>, 
-          <a href="https://anirbanchakraborty.github.io/" class="no-underline">Anirban Chakraborty</a>
-          <p>Association for the Advancement of Artificial Intelligence (<span class="conference">AAAI</span>), 2020 (Oral)</p>
-          <a href="https://sites.google.com/view/ksp-human" class="no-underline">Project Page</a> | 
-          <a href="https://arxiv.org/pdf/2006.14107.pdf" class="no-underline">Paper</a>
-        </div>
-      </div>
+    
 
       <!-- Add more publications similarly -->
     </section>
     
     <section>
-      <h3>Conference Reviewer</h3>
-      <div class="reviewer">
-        NeurIPS '25 '24, CVPR '25 '24, ICLR '25, AISTATS '25, WACV '25, ACMM '24, AAAI '22 '21
+      <h3>Publication</h3>
+      <div class="publication">
+        <img src="images/image.png" alt="Indonesian">
+        <div class="publication-content">
+          <papertitle>An adaptive system for predicting student attentiveness in online classrooms</papertitle>
+          <span>Bhavna Gupta</span>, <span>Richa Sharma</span>, <span>Roli Bansal</span>, <span>Gagan Kumar Soni</span>, <strong>Parul Negi*</strong>, <span>Paawan Purdhani</span>
+          
+          <p>Indonesian Journal of Electrical Engineering and Computer Science</p> 
+          <a href="https://www.academia.edu/download/106062163/17514.pdf" class="no-underline">Paper</a>
+        </div>
       </div>
     </section>
     
